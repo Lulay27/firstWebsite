@@ -1,12 +1,18 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
     line-height: 1.6;
+}
+
+html{
+    background-image: url('/img/paint.jpg');
+    background-size: cover;
+    /* border: #0a0a0a 5px solid; */
 }
 
 a{
@@ -56,7 +62,7 @@ li a{
 
 .navbar li a:hover{
     border-bottom: 2px rgb(138, 135, 135) solid;
-    border-top: 2px #fff solid;
+    border-top: 2px rgb(117, 99, 99) solid;
 }
 
 /* first block */
