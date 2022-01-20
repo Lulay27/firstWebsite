@@ -3,7 +3,7 @@
     margin: 10px;
     padding: 0;
     flex-shrink: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
@@ -105,33 +105,27 @@ li a{
 }
 
 /* photo block of tesla */
-.selfphoto{
-    height: 1250px;
+.squad{
+    background-color: #c44332;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+
 }
 
-.selfphoto-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
+.squad-title{
+    color: rgb(17, 17, 17);
+    text-align: center;
 }
 
-.selfphoto img{
-    width: 837;
-    height: 1148px;
-    border-radius: 8px;
-    flex: 1;
-    max-width: 100%;
+.hero-img{
+    height: 200px;
+    width: 200px;
 }
 
-.sideinfo-container{
-    max-width: 1200px;
-    max-height: 1150px;
-    margin: 0 auto;
-    padding: 0 40px;
-    align-items: flex-start;
+.hero-container{
+    display: flex;
+    justify-content: center;
 }
 
-.sideinfo-container p{
-    color: #291717;
-    max-width: 300px;
-}
+/* inspirational quote block */
