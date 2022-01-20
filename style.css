@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 10px;
     padding: 0;
+    flex-shrink: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -84,8 +85,6 @@ li a{
 .block-text p{
     color: #e5e7eb;
     max-width: 300px;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
 }
 
 .block-text h1{
@@ -99,8 +98,35 @@ li a{
     padding: 0 40px;
 }
 
-img{
+.block-img img{
     width: 200px;
     height: 200px;
     border-radius: 8px;
+}
+
+/* photo block of tesla */
+.selfphoto{
+    height: 1250px;
+}
+
+.selfphoto-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.selfphoto img{
+    width: 837;
+    height: 1148px;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 100%;
+}
+
+.sideinfo-container{
+    
+}
+
+.sideinfo-container p{
+
 }
