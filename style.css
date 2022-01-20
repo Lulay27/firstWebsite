@@ -124,9 +124,14 @@ li a{
 }
 
 .sideinfo-container{
-    
+    max-width: 1200px;
+    max-height: 1150px;
+    margin: 0 auto;
+    padding: 0 40px;
+    align-items: flex-start;
 }
 
 .sideinfo-container p{
-
+    color: #291717;
+    max-width: 300px;
 }
