@@ -147,3 +147,28 @@ li a{
 }
 
 /* inspirational quote block */
+
+.quote{
+    background-color: rgb(84, 224, 178);
+    height: 200px;
+}
+
+.quote .flex{
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.quote-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+.quote-text{
+    font-style: italic;
+}
+
+.author-text{
+    font-weight: bold;
+    text-align: end;
+}
