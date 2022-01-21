@@ -93,15 +93,17 @@ li a{
 }
 
 .block-img{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 10px;
     padding: 0 40px;
 }
 
 .block-img img{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     border-radius: 8px;
+    max-width: 100%;
+    height: auto; 
 }
 
 /* photo block of tesla */
@@ -116,11 +118,27 @@ li a{
 .squad-title{
     color: rgb(17, 17, 17);
     text-align: center;
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    padding: 35px 0 30px;
 }
 
 .hero-img{
-    height: 200px;
-    width: 200px;
+    border: 10px #0a0a0a solid;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px white;
+    
+    max-width: 300px;
+    height: auto; 
+}
+
+.hero-text{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hero h2{
+    text-align: center;
 }
 
 .hero-container{
